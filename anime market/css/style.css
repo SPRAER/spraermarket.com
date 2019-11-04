@@ -1,0 +1,119 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/delete.jpg) no-repeat center top / cover;
+	padding-bottom: 295px;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+	width: 27px;
+	margin-right: 11px;
+}
+
+nav {
+	float: right;
+	margin-top: 50px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.titles_2 {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	font-size: 130px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 300px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: 600px 600px 600px;
+	grid-column-gap: 40px;
+}
+
+.grid div{
+	text-transform: uppercase;
+	background-color: #631772;
+	border: 1px solid #212941;
+	border-radius: 5px;
+	padding: 8px 15px;
+	font-size: 40px;
+	font-family: roboto;
+	text-align: center;
+	
+}
+
+.video {
+	background:url(../img/1.jpg) no-repeat center top / cover;
+}
+
+.chat {
+	background:url(../img/2.png) no-repeat center top / cover;
+}
+
+.news {
+	background:url(../img/3.jpg) no-repeat center top / cover;
+}
+
+.grid2 div{
+	text-transform: uppercase;
+	background-color: #631772;
+	border: 1px solid #212941;
+	border-radius: 5px;
+	padding: 8px 15px;
+	font-size: 40px;
+	font-family: roboto;
+	text-align: center;
+}
+
+.grid2 {
+	display: grid;
+}
